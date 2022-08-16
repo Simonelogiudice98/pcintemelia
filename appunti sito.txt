@@ -1,0 +1,35 @@
+creare un sito con tre pagine:
+1.pagina principale, dove verranno aggiunte le sezioni principali della pagina.
+2.pagina dell'Organigramma, dove verrà aggiunta la gerarchia della PC , con foto e nomi (probabile breve descrizione).
+3.pagina delle News , dove verranno aggiunte le news relative alla PC o alla zona.
+4.pagina Unisciti a  noi dove verrà spiegata la procedura per unirsi alla protezione civile 
+
+Iniziamo
+
+INSTALLARE ANGULAR MATERIAL
+Creiamo una navbar con a sinistra il logo e a destra un hamburgher, che aprirà un offcanvas con all'interno i link e o eventuali ancore interne.(hamburgher anche su schermi grandi?)
+link:	
+1.Home
+2.Chi siamo? (ancora interna)
+3.Organigramma
+4.News
+5.Contatti (ancora interna)
+6.Unisciti a noi
+
+HOME
+Inseriamo la sezione chi siamo, dove metteremo una descrizione fornita da loro (e probabilmente anche una foto).
+Inseriamo una sorta di "Widget " del meteo impostato su ventimiglia, (dovrebbero esserci delle API , guardare su google platform).
+Inseriamo una gallery con foto fornite da loro ( che potrebbero venire cambiate sporadicamente),creare un carosello con lo scorrimento automatico delle foto .
+Inserire una mappa embed di google maps, con un marker situato sulla sede della PC.
+
+FOOTER 
+Inseriamo un footer con all'interno tutti i contatti della PC .
+
+VARIE 
+
+Implementare delle animazioni che fanno apparire le sezioni allo scorrimento della pagina con angular material.
+i colori della PC sono giallo e blu,ma mi faranno sapere quali colori vorranno nel sito .
+
+
+
+
