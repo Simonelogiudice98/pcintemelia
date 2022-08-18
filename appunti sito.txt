@@ -19,6 +19,7 @@ link:
 HOME
 Inseriamo la sezione chi siamo, dove metteremo una descrizione fornita da loro (e probabilmente anche una foto).
 Inseriamo una sorta di "Widget " del meteo impostato su ventimiglia, (dovrebbero esserci delle API , guardare su google platform).
+link per il meteo della zona e per le allerte: https://www.arpal.liguria.it/tematiche/meteo.html, https://allertaliguria.regione.liguria.it/.
 Inseriamo una gallery con foto fornite da loro ( che potrebbero venire cambiate sporadicamente),creare un carosello con lo scorrimento automatico delle foto .
 Inserire una mappa embed di google maps, con un marker situato sulla sede della PC.
 
