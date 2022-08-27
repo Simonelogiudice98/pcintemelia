@@ -1,0 +1,61 @@
+<header>
+<nav class="navbar navbar-dark bg-warning" aria-label="Dark offcanvas navbar">
+  <div class="container-fluid">
+    <!-- logo da inserire -->
+    <div class="navbar-brand" >Logo</div>
+    <button class="navbar-toggler border border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-warning" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">PC Intemelia</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" [routerLink]="''" >
+              <i class="bi bi-house"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" [routerLink]="'organigramma'">
+              <i class="bi bi-diagram-3"></i>
+               Organigramma</a>
+          </li>
+          <!-- ancora interna -->
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="">
+              <i class="bi bi-people"></i>
+               Chi siamo
+            </a>
+          </li>
+          <!-- ancora interna -->
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="">
+              <i class="bi bi-newspaper"></i>
+               News
+            </a>
+          </li>
+          <li>
+            <a [routerLink]="'unisciti'" class="nav-link text-white">
+              <i class="bi bi-person-plus"></i>
+              Unisciti a noi
+            </a>
+          </li>
+           <!-- ancora interna -->
+           <li class="nav-item ">
+            <a class="nav-link text-white" href="">
+              <i class="bi bi-journal-bookmark-fill"></i>
+                Contatti
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+<router-outlet></router-outlet>
